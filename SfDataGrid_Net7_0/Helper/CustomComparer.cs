@@ -34,12 +34,6 @@ namespace SfDataGrid_Net7_0
                 nameY = ((((Group)y).Records[0] as RecordEntry).Data as SalesByDate).Date;
             }
 
-            //else
-            //{
-            //    nameX = x.ToString().Length;
-            //    nameY = y.ToString().Length;
-            //}
-
             //returns the comparison result based in SortDirection.
 
             if (nameX < nameY)
